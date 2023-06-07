@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  background-color: #a0cee4;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+header h1,
+section h2 {
+  font-family: "Tilt Prism", cursive;
+  color: #8c9b94;
+}
+
+header nav {
+  margin-top: 8px;
+}
+
+header nav a {
+  margin-right: 8px;
+  text-decoration: none;
+  color: #3c4d56;
+}
+
+.container {
+  display: flex;
+}
+
+#resume img {
+  width: 100%;
+}
+
+p {
+  padding: 8px;
+  margin: 16px 0;
+  font-size: 18px;
+}
+
+section h2 {
+  padding: 8px;
+  font-size: 24px;
+}
+
+#adaptation .container {
+  display: block;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+#buy {
+  padding: 16px;
+
+  align-items: center;
+}
+
+#buy a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+form textarea {
+  resize: none;
+}
+
+form input:focus,
+textarea:focus {
+  outline-color: #a0cee4;
+}
+
+form button {
+  background-color: #a0cee4;
+  color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 16px;
+  border: none;
+}
+
+button:hover {
+  background-color: #8c9b94;
+}
